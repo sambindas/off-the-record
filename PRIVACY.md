@@ -1,6 +1,6 @@
 # Off the Record — Privacy Policy
 
-**Off the Record does not collect, store, transmit, or share any user data. Period.**
+**Off the Record does not collect, store, transmit, or share any user data.**
 
 - The list of sites you configure is stored using your browser's built-in extension
   storage (`storage.sync`) and never leaves your browser, other than your browser's
