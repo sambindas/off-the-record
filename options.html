@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Off the Record — Settings</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <h1>Off the Record</h1>
+  <p class="hint">
+    Add a base URL (e.g. <code>abc.com</code> or <code>https://abc.com</code>). Every visit under that
+    domain, absolute or relative, will be scrubbed from your browser history within
+    moments of being recorded. Prefix with <code>*.</code> to also cover all subdomains (e.g.
+    <code>*.abc.com</code>).
+  </p>
+
+  <form id="add-form">
+    <input type="text" id="new-base" placeholder="https://abc.com or *.abc.com" autocomplete="off" />
+    <button type="submit">Add</button>
+  </form>
+
+  <ul id="base-list"></ul>
+
+  <p class="stats" id="stats"></p>
+</body>
+<script src="options.js"></script>
+</html>
